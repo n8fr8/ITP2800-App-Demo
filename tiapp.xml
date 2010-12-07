@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+<id>org.openideals.itp2800</id>
+<name>itp2800</name>
+<version>1.0</version>
+<publisher>n8fr8</publisher>
+<url>http://openideals.com/itp2800</url>
+<description>No description provided</description>
+<copyright>2010 by n8fr8</copyright>
+<icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+<guid>d4cdfa6a-31a0-402f-bf8c-7e288054a447</guid>
+<!-- this will only work with our dev keystore and not on a production device! -->
+<property name="ti.android.google.map.api.key.development">0ZnKXkWA2dIAu2EM-OV4ZD2lJY3sEWE5TSgjJNg</property>
+<!-- get yours at http://code.google.com/android/maps-api-signup.html -->
+<property name="ti.android.google.map.api.key.production">0EeYxuftwfqw7NfiC3COjq3YEcJnsNDzx6TZP6w</property>
+
+</ti:app>
